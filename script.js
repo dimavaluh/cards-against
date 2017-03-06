@@ -8,7 +8,7 @@ function generator(){
     // Random numbers are made
     var randomNumber1 = parseInt(Math.random() * sentences.length);
     var name = sentences[randomNumber1];
-    
+
 
     //If there's already a name it is removed
     if(document.getElementById("result")){
